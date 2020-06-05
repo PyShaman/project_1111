@@ -1,0 +1,158 @@
+{
+  "Kategoria": {
+    "Bizuteria i zegarki": {
+      "Dla kobiet": [
+        {
+          "id": 0,
+          "nazwa": "DKNY NY2759",
+          "cena": 568.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        },
+        {
+          "id": 1,
+          "nazwa": "DANIEL WELLINGTON CLASSIC",
+          "cena": 245.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        }
+      ],
+      "Dla mezczyzn": [
+        {
+          "id": 0,
+          "nazwa": "Orient Automatic",
+          "cena": 783.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        },
+        {
+          "id": 1,
+          "nazwa": "CASIO G-SHOCK",
+          "cena": 1779.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        }
+      ]
+    },
+    "Delikatesy": {
+      "Napoje wody soki": [
+        {
+          "id": 0,
+          "nazwa": "Coca Cola 0.5l",
+          "cena": 2.98,
+          "jednostka": "Szt.",
+          "VAT": 8,
+          "PTU": "B"
+        }
+      ],
+      "Slodkie desery i przekaski": [
+        {
+          "id": 0,
+          "nazwa": "FERRERO NUTELLA KREM",
+          "cena": 35.00,
+          "jednostka": "kg",
+          "VAT": 8,
+          "PTU": "B"
+        }
+      ],
+      "Alkohol": [
+        {
+          "id": 0,
+          "nazwa": "FENTIMANS GINGER BEER 200ml",
+          "cena": 6.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        },
+        {
+          "id": 1,
+          "nazwa": "WINO ALTO BARRICA CZERWONE PÓŁSŁODKIE 750ml",
+          "cena": 19.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        }
+      ]
+    },
+    "Dom i wnetrze": {
+      "Baseny i chemia basenowa": [
+        {
+          "id": 0,
+          "nazwa": "Basen ogrodowy rozporowy 244x76 cm",
+          "cena": 365.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        },
+        {
+          "id": 1,
+          "nazwa": "INTEX MATA SOLARNA",
+          "cena": 79.00,
+          "jednostka": "Szt.",
+          "VAT": 5,
+          "PTU": "C"
+        }
+      ],
+      "Grille ogrodowe i akcesoria": [
+        {
+          "id": 0,
+          "nazwa": "BROIL KING GRILL GAZOWY",
+          "cena": 4499.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        },
+        {
+          "id": 1,
+          "nazwa": "TOYA GRILL Z POKRYWĄ",
+          "cena": 481.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        }
+      ]
+    },
+    "Sprzet RTV": {
+      "Nawigacja GPS": [
+        {
+          "id": 0,
+          "nazwa": "MIO SPIRIT 7700 FEU LM TRUCK",
+          "cena": 699.00,
+          "jednostka": "Szt.",
+          "VAT": 0,
+          "PTU": "D"
+        },
+        {
+          "id": 1,
+          "nazwa": "MIO SPIRIT 8670 TRUCK EU",
+          "cena": 799.00,
+          "jednostka": "Szt.",
+          "VAT": 0,
+          "PTU": "D"
+        }
+      ],
+      "Telewizory 4k UHD": [
+        {
+          "id": 0,
+          "nazwa": "PHILIPS 55PUS7334",
+          "cena": 2799.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        },
+        {
+          "id": 1,
+          "nazwa": "SAMSUNG QE65Q60RA",
+          "cena": 3849.00,
+          "jednostka": "Szt.",
+          "VAT": 23,
+          "PTU": "A"
+        }
+      ]
+    }
+  }
+}

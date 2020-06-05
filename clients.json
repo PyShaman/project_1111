@@ -1,0 +1,90 @@
+{
+  "Indywidualni": [
+    {
+      "nazwa": "Jak Kowalski",
+      "adres": {
+        "miasto": "Warszawa",
+        "kod pocztowy": "00-725",
+        "ulica": "Rolnicza",
+        "numer budynku": "5",
+        "e-mail": "jko75@gmail.com",
+        "NIP": 1129791236
+      }
+    },
+    {
+      "nazwa": "Krzysztof Ibisz",
+      "adres": {
+        "miasto": "Stalowa Wola",
+        "kod pocztowy": "37-403",
+        "ulica": "Folwarczna",
+        "numer budynku": "22",
+        "e-mail": "sexmachine6969@wp.pl",
+        "NIP": 5351202789
+      }
+    },
+    {
+      "nazwa": "Krystian Nawrocki",
+      "adres": {
+        "miasto": "Oleszyce",
+        "kod pocztowy": "37-630",
+        "ulica": "Podwalna",
+        "numer budynku": "7",
+        "e-mail": "maxim_kox@onet.pl",
+        "NIP": 8269028768
+      }
+    },
+    {
+      "nazwa": "Eliza Wrocka",
+      "adres": {
+        "miasto": "Wrocław",
+        "kod pocztowy": "53-641",
+        "ulica": "Litomska",
+        "numer budynku": "28/36",
+        "e-mail": "lizka_2261@gmail.com",
+        "NIP": 3939933864
+      }
+    }
+  ],
+  "Firmy": [
+    {
+      "nazwa": "Gruby i Chydy Akcesoria",
+      "adres": {
+        "miasto": "Poznań",
+        "kod pocztowy": "61-244",
+        "ulica": "Barana",
+        "numer budynku": "25/7",
+        "e-mail": "zamowienia@grubychudy.net"
+      }
+    },
+    {
+      "nazwa": "Koksowniki Wadowice",
+      "adres": {
+        "miasto": "Wadowice",
+        "kod pocztowy": "39-308",
+        "ulica": "Generała Bruno Olbrychta",
+        "numer budynku": "7",
+        "e-mail": "kontakt.koksowniki@wadowice.pl"
+      }
+    },
+    {
+      "nazwa": "YACHT CONSTRUCTION",
+      "adres": {
+        "miasto": "Gdańsk",
+        "kod pocztowy": "80-718",
+        "ulica": "Elbląska",
+        "numer budynku": "131",
+        "e-mail": "biuro@yachtconstrucions.pl"
+      }
+    },
+    {
+      "nazwa": "Kuchnie Suwałki",
+      "adres": {
+        "miasto": "Suwałki",
+        "kod pocztowy": "16-402",
+        "ulica": "Podhorskiego",
+        "numer budynku": "10",
+        "e-mail": "kuchniesuwalki@interia.pl"
+      }
+    }
+  ]
+}

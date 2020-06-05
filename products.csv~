@@ -1,0 +1,20 @@
+Kategoria;Podkategoria;ID;Nazwa;Cena;Jednostka;VAT
+Bizuteria i zegarki;Dla kobiet;1;DKNY NY2759;568.00;Szt.;23
+Bizuteria i zegarki;Dla kobiet;2;DANIEL WELLINGTON CLASSIC;245.00;Szt.;23
+Bizuteria i zegarki;Dla mezczyzn;1;Orient Automatic;783.00;Szt.;23
+Bizuteria i zegarki;Dla mezczyzn;2;CASIO G-SHOCK;1779.00;Szt.;23
+
+Delikatesy;Napoje wody soki;1;Coca Cola 0.5l;2.98;Szt.;8
+Delikatesy;Slodkie desery i przekaski;1;FERRERO NUTELLA KREM;35.00;kg;8
+Delikatesy;Alkohol;1;FENTIMANS GINGER BEER 200ml;6.00;Szt.;23
+Delikatesy;Alkohol;2;WINO ALTO BARRICA CZERWONE PÓŁSŁODKIE 750ml;19.00;Szt.;8
+
+Dom i wnetrze;Baseny i chemia basenowa;1;Basen ogrodowy rozporowy 244x76 cm;365;Szt.;23
+Dom i wnetrze;Baseny i chemia basenowa;2;INTEX MATA SOLARNA;79.00;Szt.;5
+Dom i wnetrze;Grille ogrodowe i akcesoria;1;BROIL KING GRILL GAZOWY;4499.00;Szt.;23
+Dom i wnetrze;Grille ogrodowe i akcesoria;2;TOYA GRILL Z POKRYWĄ;481.00;Szt.;23
+
+Sprzet RTV;Nawigacja GPS;1;MIO SPIRIT 7700 FEU LM TRUCK;699.00;Szt.;0
+Sprzet RTV;Nawigacja GPS;2;MIO SPIRIT 8670 TRUCK EU;799.00;Szt.;0
+Sprzet RTV;Telewizory 4k UHD;1;PHILIPS 55PUS7334;2799.00;Szt.;23
+Sprzet RTV;Telewizory 4k UHD;2;SAMSUNG QE65Q60RA;3849.00;Szt.;23

@@ -1,0 +1,32 @@
+                            Sklep WielobranÅ¼owy
+                            'U Wujka Wszystko!'
+                                ul. Oleska 7
+                                45-052 Opole
+                               NIP: 1087778862
+                                   _______
+                                  |.-----.|
+                                  ||x . x||
+                                  ||_.-._||
+                                  `--)-(--`
+                                 __[=== o]___
+                                |:::::::::::|\
+                                `-=========-`()
+		2020-06-05 14:54:58    c2ddfe11-a72b-11ea-8f1b-f0d5bfdec03c
+		-----------------------------------------------------------
+		CASIO G-SH			A			2188.17x1		2188.17A
+		Basen ogro			A			448.95x1		448.95A
+		INTEX MATA			C			82.95x1		82.95C
+		FENTIMANS 			A			7.38x200		1476.00A
+		WINO ALTO 			A			23.37x200		4674.00A
+		-----------------------------------------------------------
+		Sprzedaż opodatkowania A						7144.00
+		PTU A 23.00%									1643.12
+		Sprzedaż opodatkowania B						0.00
+		PTU B  8.00%									0.00
+		Sprzedaż opodatkowania C						79.00
+		PTU C  5.00%									3.95
+		Sprzedaż opodatkowania D						0.00
+		PTU D  0.00%									0.00
+		SUMA netto: 									7223.00
+		SUMA brutto:									8870.07
+		-----------------------------------------------------------
