@@ -16,6 +16,8 @@ class GenerateBill:
         product = self.product.get_product(category, subcategory, id_)
         return product['nazwa'], product['cena'], product['jednostka'], product['VAT'], product['PTU'], quantity
 
-    def add_client_to_bill(self, type_):
+    def add_client_to_bill(self, type_, name):
         client = self.client.get_client(type_)
-        return client['nazwa'], client['adres']
+        for data in client:
+            if data['nazwa'] == name:
+                return data['adres']

@@ -11,5 +11,34 @@
                                  __[=== o]___
                                 |:::::::::::|\
                                 `-=========-`()
-		2020-06-05 15:39:10    efc41fa7-a731-11ea-83d3-f0d5bfdec03c
+		2020-06-05 16:39:43    6514d1c8-a73a-11ea-b1e9-f0d5bfdec03c
+		-----------------------------------------------------------
+		Imię i Nazwisko: Jak Kowalski
+		Miasto: Warszawa
+		Kod pocztowy: 00-725
+		Ulica: Rolnicza
+		Numer budynku: 5
+		email: jko75@gmail.com
+		NIP: 1129791236
+		-----------------------------------------------------------
+		CASIO G-SH			A			2188.17x1		2188.17A
+		Basen ogro			A			448.95x1		448.95A
+		INTEX MATA			C			82.95x1		82.95C
+		FENTIMANS 			A			7.38x200		1476.00A
+		WINO ALTO 			A			23.37x200		4674.00A
+		-----------------------------------------------------------
+		Sprzedaż opodatkowania A						7144.00
+		PTU A 23.00%									1643.12
+		Sprzedaż opodatkowania B						0.00
+		PTU B  8.00%									0.00
+		Sprzedaż opodatkowania C						79.00
+		PTU C  5.00%									3.95
+		Sprzedaż opodatkowania D						0.00
+		PTU D  0.00%									0.00
+		SUMA netto: 									7223.00
+		SUMA brutto:									8870.07
+		-----------------------------------------------------------
+		Data wystawienia: 2020-06-05 16:39:43
+		Data sprzedaży: 2020-06-05 16:39:43
+		Termin płatności: 2020-06-08
 		-----------------------------------------------------------

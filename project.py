@@ -1,7 +1,7 @@
 import csv
 import time
 import uuid
-from datetime import datetime
+from datetime import datetime, timedelta
 from reports.bill import GenerateBill
 from data.sort import Sorting
 from data.clients import Clients
@@ -69,7 +69,10 @@ class Project:
     def generate_invoice(self, order_file):
         with open('example_bill.txt') as f:
             with open(f"output_invoice_{self.timestamp}.txt", "w", encoding = 'utf-8') as f1:
-                client = self.read_order(order_file)
+                client_data = self.read_order(order_file)
+                client_type = client_data[0]
+                client_name = client_data[1]
+                client_address = self.bill.add_client_to_bill(client_type, client_name)
                 overall_net = []
                 overall_gross = []
                 bill_list = self.generate_list_from_order(order_file)
@@ -81,7 +84,13 @@ class Project:
                     f1.write(line)
                 f1.write(f'\n\t\t{self.current_date} {self.current_time}    {self.bill_number}')
                 f1.write(f'\n\t\t-----------------------------------------------------------\n')
-                f1.write(f'\t\t{self.bill.add_client_to_bill(client)}')
+                f1.write(f'\t\tImię i Nazwisko: {client_name}\n')
+                f1.write(f'\t\tMiasto: {client_address["miasto"]}\n')
+                f1.write(f'\t\tKod pocztowy: {client_address["kod pocztowy"]}\n')
+                f1.write(f'\t\tUlica: {client_address["ulica"]}\n')
+                f1.write(f'\t\tNumer budynku: {client_address["numer budynku"]}\n')
+                f1.write(f'\t\temail: {client_address["e-mail"]}\n')
+                f1.write(f'\t\tNIP: {client_address["NIP"]}')
                 f1.write(f'\n\t\t-----------------------------------------------------------\n')
                 for item in bill_list:
                     gross_price = (item[1] * 0.01 * item[3] + item[1])
@@ -99,23 +108,12 @@ class Project:
                 f1.write(f'\t\tSUMA netto: \t\t\t\t\t\t\t\t\t{sum(overall_net):.2f}')
                 f1.write(f'\n\t\tSUMA brutto:\t\t\t\t\t\t\t\t\t{sum(overall_gross):.2f}')
                 f1.write(f'\n\t\t-----------------------------------------------------------\n')
+                f1.write(f'\t\tData wystawienia: {str(datetime.now())[:19]}\n')
+                f1.write(f'\t\tData sprzedaży: {str(datetime.now())[:19]}\n')
+                f1.write(f'\t\tTermin płatności: {str(datetime.now() + timedelta(days=3))[:10]}')
+                f1.write(f'\n\t\t-----------------------------------------------------------\n')
 
 
-# project = Project()
-# e = Clients()
-#
-# type_ = project.read_order('order.csv')[0]
-# client = project.read_order('order.csv')[1]
-# f = e.get_client(type_)
-# for data in f:
-#     if data['nazwa'] == client:
-#         print(data['nazwa']['adres'])
-
-
-
-# project.generate_invoice('order.csv')
-# f = project.bill.add_client_to_bill('Indywidualny')
-# print(f)
 def main():
     project = Project()
     """
