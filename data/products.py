@@ -6,7 +6,7 @@ class Products:
     def __init__(self):
         self.path = 'products.json'
 
-    def get_product(self, category, subcategory, id):
+    def get_product(self, category, subcategory, id_):
         with open(self.path, 'r', encoding='utf-8') as data_file:
             data = json.load(data_file)
-        return data['Kategoria'][category][subcategory][id]
+        return data['Kategoria'][category][subcategory][id_]

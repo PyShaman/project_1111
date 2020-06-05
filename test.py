@@ -1,8 +1,10 @@
 import csv
 
-with open('order.csv', newline='') as csvfile:
-    reader = csv.DictReader(csvfile, delimiter=';')
-    for row in reader:
-        print(row['Type'], row['Client'], row['Category'], row['Subcategory'], row['id'], row['quantity'])
+with open('order_invoice.csv', newline = '') as csvfile:
+    reader = csv.DictReader(csvfile, delimiter = ';')
+    csv_headings = next(reader)
+    first_line = next(reader)
+    if 'Firmy' in first_line['Type']:
+        print('Firmy')
 
 # print(reader)

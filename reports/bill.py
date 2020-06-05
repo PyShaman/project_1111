@@ -15,3 +15,7 @@ class GenerateBill:
     def add_item_to_bill(self, category, subcategory, id_, quantity):
         product = self.product.get_product(category, subcategory, id_)
         return product['nazwa'], product['cena'], product['jednostka'], product['VAT'], product['PTU'], quantity
+
+    def add_client_to_bill(self, type_):
+        client = self.client.get_client(type_)
+        return client['nazwa'], client['adres']
